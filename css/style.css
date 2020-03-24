@@ -1,19 +1,28 @@
 html {
     font-size: 20px;
-    background: #fffffd;
-    background-image: url("/img/bg.jpg");
+    background: #fffff2;
+    box-shadow: inset 0 0 5rem rgba(10,10,0,.9);
+    min-height: 100%;
 }
 
 body {
-    max-width: 762px;
+    max-width: 700px;
     margin: auto;
     padding: 0 1rem 0 1rem;
     font-family: 'Gotu', sans-serif;
     font-weight: 400;
+    color: #221000;
 }
 
+a { 
+    color: #0055ff;
+    transition: color .5s ease-out;
+}
+a:hover { color: #ccddff; }
+a:visited, a:active {}
+
 header {
-    margin: 1rem 0 2rem 0;
+    margin: 2rem 0 2rem 0;
     text-align: center;
 }
 img.logo {
@@ -33,15 +42,26 @@ button {
     padding: .8rem 1.2rem;
     border-radius: .7rem;
     border: 0;
-    box-shadow: .2rem .2rem .5rem rgba(0,0,0,0.15);
+    box-shadow: .2rem .2rem .5rem rgba(0,0,0,0.35);
     cursor: pointer;
     margin: 1rem auto;
+    outline:none;
+    transition: all 100ms ease-out;
+}
+
+button:hover {
+    transform: translate(-1px,-1px);
+    box-shadow: .3rem .3rem .6rem rgba(0,0,0,0.35);
 }
 
 button:active {
     box-shadow: none;
     transform: translate(1px,1px);
-    border: none;
+    outline:none;
+}
+.another {
+    margin-top: 1rem;
+    text-align: center;
 }
 
 footer {}

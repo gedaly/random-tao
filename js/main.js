@@ -9,8 +9,7 @@ function newChapter() {
 
 // Tao Te Ching Chapters
 var chapters = [
-    '<h2>1</h2><br />
-    The tao that can be told
+    '<h2>1</h2><br />The tao that can be told
     is not the eternal Tao
     The name that can be named
     is not the eternal Name.
